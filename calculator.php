@@ -11,7 +11,7 @@ $line1 = readline("Welke operatie wil je uitvoeren? (+,-)");
 	
 if ($line1 == "+") { 
 	$line = readline("eerste getal?");
-$line = readline("tweede getal?");
+	$line = readline("tweede getal?");
 	echo "Het antwoord = "; 
 	$line = readline($line + $line);
 } elseif ($line1 == "-") { 
