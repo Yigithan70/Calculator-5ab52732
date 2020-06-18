@@ -10,8 +10,8 @@
     <?php 
 
     $line1 = readline("Welke operatie wil je uitvoeren? (+,-)");
-
-
+        
+     	
     if ($line1 == "+") {
         $line = readline("eerste getal?");
         $line = readline("tweede getal?");
@@ -30,6 +30,6 @@
 
 
 
-
+    
 </body>
 </html>
